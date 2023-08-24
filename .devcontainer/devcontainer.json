@@ -1,0 +1,22 @@
+{
+  "name": "Deno",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "deno.enable": true,
+    "deno.lint": true,
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "extensions": [
+    "denoland.vscode-deno"
+  ],
+  "remoteUser": "vscode",
+  "portsAttributes": {
+    "3000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "forwardPorts": [3000]
+}
