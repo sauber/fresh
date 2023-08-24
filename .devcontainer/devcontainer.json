@@ -9,8 +9,9 @@
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
   "extensions": [
-    "denoland.vscode-deno"
-  ],
+	"denoland.vscode-deno",
+	"akil-s.tokyo-light"
+],
   "remoteUser": "vscode",
   "portsAttributes": {
     "3000": {
