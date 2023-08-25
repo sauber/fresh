@@ -4,21 +4,37 @@
 
 import * as $0 from "./routes/_404.tsx";
 import * as $1 from "./routes/_app.tsx";
-import * as $2 from "./routes/api/joke.ts";
-import * as $3 from "./routes/greet/[name].tsx";
-import * as $4 from "./routes/index.tsx";
-import * as $$0 from "./islands/Counter.tsx";
+import * as $2 from "./routes/api/etoro/chart.ts";
+import * as $3 from "./routes/api/etoro/discover.ts";
+import * as $4 from "./routes/api/etoro/portfolio.ts";
+import * as $5 from "./routes/api/etoro/stats.ts";
+import * as $6 from "./routes/api/joke.ts";
+import * as $7 from "./routes/greet/[name].tsx";
+import * as $8 from "./routes/index.tsx";
+import * as $$0 from "./islands/Chart.tsx";
+import * as $$1 from "./islands/Counter.tsx";
+import * as $$2 from "./islands/Discover.tsx";
+import * as $$3 from "./islands/Portfolio.tsx";
+import * as $$4 from "./islands/Stats.tsx";
 
 const manifest = {
   routes: {
     "./routes/_404.tsx": $0,
     "./routes/_app.tsx": $1,
-    "./routes/api/joke.ts": $2,
-    "./routes/greet/[name].tsx": $3,
-    "./routes/index.tsx": $4,
+    "./routes/api/etoro/chart.ts": $2,
+    "./routes/api/etoro/discover.ts": $3,
+    "./routes/api/etoro/portfolio.ts": $4,
+    "./routes/api/etoro/stats.ts": $5,
+    "./routes/api/joke.ts": $6,
+    "./routes/greet/[name].tsx": $7,
+    "./routes/index.tsx": $8,
   },
   islands: {
-    "./islands/Counter.tsx": $$0,
+    "./islands/Chart.tsx": $$0,
+    "./islands/Counter.tsx": $$1,
+    "./islands/Discover.tsx": $$2,
+    "./islands/Portfolio.tsx": $$3,
+    "./islands/Stats.tsx": $$4,
   },
   baseUrl: import.meta.url,
 };
