@@ -1,13 +1,4 @@
 import { useSignal } from "@preact/signals";
-import { Handlers } from "$fresh/server.ts";
-
-export const handler: Handlers = {
-  async GET(_req, ctx) {
-    const resp = await ctx.render();
-    resp.headers.set("Access-Control-Allow-Origin", "https://www.etoro.com");
-    return resp;
-  },
-};
 
 interface PortfolioResponse {
   CreditByRealizedEquity: number;

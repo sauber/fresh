@@ -1,15 +1,4 @@
 import { useSignal } from "@preact/signals";
-import { Button } from "../components/Button.tsx";
-import { Handlers } from "$fresh/server.ts";
-import { resolve } from "$std/path/win32.ts";
-
-export const handler: Handlers = {
-  async GET(_req, ctx) {
-    const resp = await ctx.render();
-    resp.headers.set("Access-Control-Allow-Origin", "https://www.etoro.com");
-    return resp;
-  },
-};
 
 interface DiscoverResponse {
   Status: string;
