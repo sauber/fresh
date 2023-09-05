@@ -5,7 +5,8 @@
     "start": "deno run -A --watch=static/,routes/,islands/ dev.ts",
     "build": "deno run -A dev.ts build",
     "preview": "deno run -A main.ts",
-    "update": "deno run -A -r https://fresh.deno.dev/update ."
+    "update": "deno run -A -r https://fresh.deno.dev/update .",
+    "test": "deno test --allow-read=testdata,/tmp --allow-write=testdata,/tmp --allow-net=jsonplaceholder.typicode.com,www.etoro.com"
   },
   "lint": {
     "rules": {
@@ -30,7 +31,13 @@
     "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.2.1",
     "@preact/signals": "https://esm.sh/*@preact/signals@1.1.3",
     "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.2.3",
-    "$std/": "https://deno.land/std@0.193.0/"
+    "$std/": "https://deno.land/std@0.193.0/",
+
+    "assert": "https://deno.land/std@0.200.0/assert/mod.ts",
+    "difference": "https://deno.land/std@0.200.0/datetime/difference.ts",
+    "path": "https://deno.land/std@0.200.0/path/mod.ts",
+    "printf": "https://deno.land/std@0.200.0/fmt/printf.ts",
+    "yaml": "https://deno.land/std@0.200.0/yaml/mod.ts"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
