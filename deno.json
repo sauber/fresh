@@ -25,6 +25,9 @@
     ]
   },
   "imports": {
+    "/": "./",
+    "./": "./",
+
     "$fresh/": "https://deno.land/x/fresh@1.4.2/",
     "preact": "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
@@ -37,7 +40,9 @@
     "difference": "https://deno.land/std@0.200.0/datetime/difference.ts",
     "path": "https://deno.land/std@0.200.0/path/mod.ts",
     "printf": "https://deno.land/std@0.200.0/fmt/printf.ts",
-    "yaml": "https://deno.land/std@0.200.0/yaml/mod.ts"
+    "yaml": "https://deno.land/std@0.200.0/yaml/mod.ts",
+
+    "files": "./lib/files.ts"
   },
   "compilerOptions": {
     "jsx": "react-jsx",

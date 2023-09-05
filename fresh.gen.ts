@@ -9,8 +9,10 @@ import * as $3 from "./routes/api/etoro/discover.ts";
 import * as $4 from "./routes/api/etoro/portfolio.ts";
 import * as $5 from "./routes/api/etoro/stats.ts";
 import * as $6 from "./routes/api/joke.ts";
-import * as $7 from "./routes/greet/[name].tsx";
-import * as $8 from "./routes/index.tsx";
+import * as $7 from "./routes/api/v1/file/[filename].ts";
+import * as $8 from "./routes/api/v1/file/_middleware.ts";
+import * as $9 from "./routes/greet/[name].tsx";
+import * as $10 from "./routes/index.tsx";
 import * as $$0 from "./islands/Chart.tsx";
 import * as $$1 from "./islands/Counter.tsx";
 import * as $$2 from "./islands/Discover.tsx";
@@ -26,8 +28,10 @@ const manifest = {
     "./routes/api/etoro/portfolio.ts": $4,
     "./routes/api/etoro/stats.ts": $5,
     "./routes/api/joke.ts": $6,
-    "./routes/greet/[name].tsx": $7,
-    "./routes/index.tsx": $8,
+    "./routes/api/v1/file/[filename].ts": $7,
+    "./routes/api/v1/file/_middleware.ts": $8,
+    "./routes/greet/[name].tsx": $9,
+    "./routes/index.tsx": $10,
   },
   islands: {
     "./islands/Chart.tsx": $$0,
