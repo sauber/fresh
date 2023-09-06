@@ -2,9 +2,9 @@
 
 ## Date requests
 
-recent: If still valid, serve existing file, otherwise fetch new
-latest: Most recent file, without fetching
-on(date): Lastest file on or prior to date. Null if no files available on or later.
+* *recent*: If still valid, serve existing file, otherwise fetch new
+* *latest*: Most recent file, without fetching
+* *on(date)*: Lastest file on or prior to date. Null if no files available on or later.
 
 
 ## Example of requests:
